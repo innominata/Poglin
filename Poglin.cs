@@ -1,8 +1,6 @@
 ﻿using BepInEx.Configuration;
-using Peglin;
 using HarmonyLib;
 using I2.Loc;
-using Mono.CompilerServices.SymbolWriter;
 using UnityEngine;
 
 namespace Poglin
