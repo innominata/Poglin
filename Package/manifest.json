@@ -1,0 +1,9 @@
+{
+  "name": "Poglin",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/innominata/Poglin",
+  "description": "Change all occurences of peglin to poglin",
+  "dependencies": [
+    "xiaoye97-BepInEx-5.4.11"
+  ]
+}
