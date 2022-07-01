@@ -7,7 +7,7 @@ using HarmonyLib;
 namespace Poglin
 {
 
-    [BepInPlugin("poglin.cat.xray", "Poglin Plugin", "1.1.0")]
+    [BepInPlugin("poglin.cat.xray", "Poglin Plugin", "1.2.0")]
     public class Bootstrap : BaseUnityPlugin
     {
         public new static ManualLogSource Logger;
@@ -31,6 +31,8 @@ namespace Poglin
         {
             Poglin.speed = Config.Bind("Tweaks", "Speed", 1f, "Override Base Gamespeed");
             Poglin.textReplace = Config.Bind("Tweaks", "Pog", true, "Replace Peglin with Poglin");
+            Poglin.bombCounterEnabled = Config.Bind("Tweaks", "Bomb Counter", true, "Enable Bomb Counter");
+            // Poglin.CreateBombCountGameObject();
         }
         private void ApplyHarmonyPatches()
         {

@@ -4,8 +4,8 @@ schemaVersion = "0.0.1"
 [package]
 namespace = "innominata"
 name = "Poglin"
-versionNumber = "1.1.0"
-description = "v1.1.0 Control base game speed. Replaces Peglin with Poglin in text."
+versionNumber = "1.2.0"
+description = "v1.2.0 Bomb Counter. Control base game speed. Replaces Peglin with Poglin in text."
 websiteUrl = "https://github.com/innominata/Poglin"
 containsNsfwContent = false
 
