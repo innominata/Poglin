@@ -7,7 +7,7 @@
 		<TargetFramework>net472</TargetFramework>
 		<AssemblyName>Poglin</AssemblyName>
 		<Description>Pog Hard or Pog Home</Description>
-		<Version>1.2.0</Version>
+		<Version>1.2.1</Version>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<LangVersion>9.0</LangVersion>
 		<OutDir>bin/$(Configuration)</OutDir>

@@ -7,7 +7,7 @@ using HarmonyLib;
 namespace Poglin
 {
 
-    [BepInPlugin("poglin.cat.xray", "Poglin Plugin", "1.2.0")]
+    [BepInPlugin("poglin.cat.xray", "Poglin Plugin", "1.2.1")]
     public class Bootstrap : BaseUnityPlugin
     {
         public new static ManualLogSource Logger;
